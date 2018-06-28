@@ -407,9 +407,11 @@ p {
 .fh5co-grid .fh5co-grid-item {
   width: 50%;
   float: left;
-  background-size: cover;
+  filter: drop-shadow( 5px 5px 2px rgb(63, 63, 63));
   background-position: center center;
   background-repeat: no-repeat;
+  /* background-size: cover; */
+  transform: scale(1.2);
 }
 @media screen and (max-width: 768px) {
   .fh5co-grid .fh5co-grid-item {

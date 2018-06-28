@@ -2,7 +2,7 @@
 theme = "hugo-icon"
 baseURL = "/"
 languageCode = "en-AU"
-title = "My Awesome Title"
+title = "Divas Pole Studio"
 
 # Metadata
 [params]
@@ -12,15 +12,15 @@ title = "My Awesome Title"
 # Hero section (from here on is for icon theme)
 [params.hero]
   img = "images/hero_bg.jpg"
-  title = "Create awesome things for better web"
-  description = "Lovingly hand-crafted by the fine folks at [FreeHTML5.co](http://freehtml5.co/)"
+  title = "Divas Pole Studio"
+  description = "Descrição curta ou frase de efeito - [Link Opcional](/)"
 
 # Navigation section
 [params.nav]
-  mission = "Our Mission"
-  services = "Services"
-  team = "The Team"
-  contact = "Get In Touch"
+  mission = "Our Mission-estudio"
+  services = "Services-aulas"
+  team = "The Team-horarios"
+  contact = "Get In Touch-Treinamento"
   # Include logo instead if HOME:
   # logo = "path/to/logo"
 
@@ -31,35 +31,43 @@ title = "My Awesome Title"
   [params.mission.images]
     enable = true
 
+   # [[params.mission.images.list]]
+  #    img = "images/img_3.jpg"
+   # [[params.mission.images.list]]
+   #   img = "images/img_2.jpg"
+   # [[params.mission.images.list]]
+   #   img = "images/img_1.jpg"
+  #  [[params.mission.images.list]]
+  #    img = "images/img_4.jpg"
+  [[params.mission.images.list]]
+         img = "images/sala1.jpg"
     [[params.mission.images.list]]
-      img = "images/img_3.jpg"
-    [[params.mission.images.list]]
-      img = "images/img_2.jpg"
-    [[params.mission.images.list]]
-      img = "images/img_1.jpg"
-    [[params.mission.images.list]]
-      img = "images/img_4.jpg"
+        img = "images/sala2.jpg"
+   [[params.mission.images.list]]
+        img = "images/sala3.jpg"
+   [[params.mission.images.list]]
+        img = "images/sala4.jpg"
 
   [[params.mission.item]]
     weight = 1
     name = "marketing"
-    title = "Marketing"
-    subtitle = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione voluptate laborum sapiente officiis molestiaea."
-    description = "<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae aliquid aperiam eveniet officia molestiae temporibus beatae dolores dignissimos aspernatur eius doloremque ad, eaque pariatur, repellendus illum, nostrum velit necessitatibus molestias.</p><ul class='checked'><li>Web Development</li><li>User Interface Experts</li><li>Pixel Perfect Design</li></ul><p><a href='#' class='btn btn-primary btn-outline fh5co-content-nav' data-nav-section='contact'>Get In Touch</a></p>"
+    title = "O Estúdio"
+    subtitle = "Somos o primeiro estúdio de Pole do Plano Piloto, aberto em abril de 2010 numa quadra nobre da Asa Norte."
+    description = "<p>Oferecemos a mais completa estrutura, totalmente projetada para aulas de Pole: salas com barras estáticas e giratórias, espelhos, material de segurança e muito mais.</p><ul class='checked'><li>Metodologia própria de ensino de Pole</li><li>Maior instalação para a prática do Pole no DF</li><li>Aprendizado contínuo e seguro</li></ul><p><a href='#' class='btn btn-primary btn-outline fh5co-content-nav' data-nav-section='contact'>Entrar Em Contato</a></p>"
 
   [[params.mission.item]]
     weight = 2
     name = "analysis"
-    title = "Resources"
+    title = "A Equipe"
     subtitle = "Quam quasi illum expedita dicta nemo fugit reprehenderit similique! Corporis praesentium magnam sequi."
-    description = "<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla explicabo, molestiae eaque fugiat dolores est esse, doloremque placeat assumenda corrupti officia dolorum. Sunt saepe ut, explicabo consectetur, nostrum illo est.</p><ul class='checked'><li>Free HTML5 Templates</li><li>Free Bootstrap Templates</li><li>Free HTML5 Bootstrap Templates</li></ul><p><a href='#' class='btn btn-primary btn-outline fh5co-content-nav' data-nav-section='contact'>Get In Touch</a></p>"
+    description = "<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla explicabo, molestiae eaque fugiat dolores est esse, doloremque placeat assumenda corrupti officia dolorum. Sunt saepe ut, explicabo consectetur, nostrum illo est.</p><ul class='checked'><li>Item 1</li><li>Item 2</li><li>Item 3</li></ul><p><a href='#' class='btn btn-primary btn-outline fh5co-content-nav' data-nav-section='contact'>Entrar Em Contato</a></p>"
 
   [[params.mission.item]]
     weight = 3
     name = "strategy"
-    title = "Strategy"
+    title = "História"
     subtitle = "Magnam iste obcaecati illo laboriosam amet. Dignissimos sed quis voluptatum corporis adipisci amet."
-    description = "<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio dolore illum expedita placeat debitis, dignissimos obcaecati et modi. Possimus id dicta consequuntur veritatis, reiciendis at expedita voluptate sint distinctio eligendi!</p><ul class='checked'><li>Web Development</li><li>User Interface Experts</li><li>Pixel Perfect Design</li></ul><p><a href='#' class='btn btn-primary btn-outline fh5co-content-nav' data-nav-section='contact'>Get In Touch</a></p>"
+    description = "<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio dolore illum expedita placeat debitis, dignissimos obcaecati et modi. Possimus id dicta consequuntur veritatis, reiciendis at expedita voluptate sint distinctio eligendi!</p><ul class='checked'><li>Item 1</li><li>Item 2</li><li>Item 3</li></ul><p><a href='#' class='btn btn-primary btn-outline fh5co-content-nav' data-nav-section='contact'>Entrar Em Contato</a></p>"
 
 # Services section
 [params.services]
