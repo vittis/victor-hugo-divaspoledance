@@ -17,10 +17,10 @@ title = "Divas Pole Studio"
 
 # Navigation section
 [params.nav]
-  mission = "Our Mission-estudio"
-  services = "Services-aulas"
-  team = "The Team-horarios"
-  contact = "Get In Touch-Treinamento"
+  mission = "Estúdio"
+  services = "Aulas"
+  team = "Horários"
+  contact = "Treinamento"
   # Include logo instead if HOME:
   logo = "images/logo.png"
 
