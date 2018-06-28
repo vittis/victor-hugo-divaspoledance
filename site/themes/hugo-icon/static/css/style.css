@@ -18,7 +18,7 @@ body.fh5co-overflow {
 }
 
 a {
-  color: #69c2c8;
+  color: #be6043;
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s;
@@ -65,9 +65,9 @@ p {
 }
 
 .btn-primary {
-  background: #69c2c8;
+  background: #be6043;
   color: #fff;
-  border: 2px solid #69c2c8;
+  border: 2px solid #be6043;
 }
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
   background: #56bac1 !important;
@@ -75,11 +75,11 @@ p {
 }
 .btn-primary.btn-outline {
   background: transparent;
-  color: #69c2c8;
-  border: 2px solid #69c2c8;
+  color: #be6043;
+  border: 2px solid #be6043;
 }
 .btn-primary.btn-outline:hover, .btn-primary.btn-outline:focus, .btn-primary.btn-outline:active {
-  background: #69c2c8;
+  background: #be6043;
   color: #fff;
 }
 
@@ -184,7 +184,7 @@ p {
 .form-control:active, .form-control:focus {
   outline: none;
   box-shadow: none;
-  border-color: #69c2c8;
+  border-color: #be6043;
 }
 
 .fh5co-page {
@@ -471,8 +471,8 @@ p {
   outline: none;
 }
 .fh5co-tabs-container .fh5co-tabs li.active a {
-  color: #69c2c8;
-  border-bottom: 1px solid #69c2c8;
+  color: #be6043;
+  border-bottom: 1px solid #be6043;
 }
 @media screen and (max-width: 480px) {
   .fh5co-tabs-container .fh5co-tabs li {
@@ -567,7 +567,7 @@ p {
   float: left;
   width: 90px;
   height: 90px;
-  background: #69c2c8;
+  background: #b44d2e;
   color: #fff;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
@@ -801,7 +801,7 @@ p {
   right: 0;
   left: 0;
   z-index: 0;
-  background: #69c2c8;
+  background: #be6043;
   opacity: 0;
   visibility: hidden;
   -webkit-transition: 0.1s;
@@ -895,7 +895,7 @@ p {
   border-radius: 0;
 }
 #fh5co-contact .form-control:active, #fh5co-contact .form-control:focus {
-  border-bottom: 1px solid #69c2c8;
+  border-bottom: 1px solid #be6043;
 }
 
 #fh5co-footer {
@@ -1009,10 +1009,10 @@ p {
 #fh5co-offcanvas a:hover, #fh5co-offcanvas a:focus, #fh5co-offcanvas a:active {
   outline: none;
   text-decoration: none;
-  color: #69c2c8;
+  color: #be6043;
 }
 #fh5co-offcanvas a.active {
-  color: #69c2c8;
+  color: #be6043;
 }
 @media screen and (max-width: 768px) {
   #fh5co-offcanvas {

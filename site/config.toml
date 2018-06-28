@@ -21,8 +21,14 @@ title = "Divas Pole Studio"
   services = "Aulas"
   team = "Horários"
   contact = "Treinamento"
+  karpov = "Contato"
+
   # Include logo instead if HOME:
   logo = "images/logo.png"
+
+[params.karpov]
+  enable = true
+
 
 # Mission section
 [params.mission]
