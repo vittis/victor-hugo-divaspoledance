@@ -22,7 +22,7 @@ title = "Divas Pole Studio"
   team = "The Team-horarios"
   contact = "Get In Touch-Treinamento"
   # Include logo instead if HOME:
-  # logo = "path/to/logo"
+  logo = "images/logo.png"
 
 # Mission section
 [params.mission]
